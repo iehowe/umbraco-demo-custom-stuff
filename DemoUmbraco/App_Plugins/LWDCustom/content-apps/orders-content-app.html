@@ -1,0 +1,11 @@
+﻿<div ng-controller="lwd.ordersContentApp as $vm">
+    <umb-box>
+        <umb-box-content>
+            <umb-table
+                ng-if="$vm.items"
+                items="$vm.items"
+                item-properties="$vm.options.includeProperties">
+            </umb-table>
+        </umb-box-content>
+    </umb-box>
+</div>

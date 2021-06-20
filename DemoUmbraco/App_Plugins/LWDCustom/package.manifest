@@ -1,12 +1,27 @@
 {
   "javascript": [
-    "~/App_Plugins/LWDCustom/dashboards/welcome-dashboard.controller.js"
+    "~/App_Plugins/LWDCustom/dashboards/welcome-dashboard.controller.js",
+    "~/App_Plugins/LWDCustom/dashboards/custom-dashboard.controller.js",
+    "~/App_Plugins/LWDCustom/content-apps/orders-content-app.controller.js"
   ],
   "dashboards": [
     {
       "alias": "lwd.welcomeDashboard",
       "sections": ["content"],
       "view": "~/App_Plugins/LWDCustom/dashboards/welcome-dashboard.html"
+    },
+    {
+      "alias": "lwd.customDashboard",
+      "sections": ["customSection"],
+      "view": "~/App_Plugins/LWDCustom/dashboards/custom-dashboard.html"
+    }
+  ],
+  "contentApps": [
+    {
+      "name": "Orders",
+      "alias": "lwd.ordersContentApp",
+      "view": "~/App_Plugins/LWDCustom/content-apps/orders-content-app.html",
+      "icon": "icon-bills-dollar"
     }
   ],
   "sections": [
