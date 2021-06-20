@@ -1,0 +1,12 @@
+{
+  "javascript": [
+    "~/App_Plugins/LWDCustom/dashboards/welcome-dashboard.controller.js"
+  ],
+  "dashboards": [
+    {
+      "alias": "lwd.welcomeDashboard",
+      "sections": ["content"],
+      "view": "~/App_Plugins/LWDCustom/dashboards/welcome-dashboard.html"
+    }
+  ]
+}
