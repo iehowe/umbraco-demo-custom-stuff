@@ -1,0 +1,7 @@
+﻿<div class="dashboard dashboard-custom" ng-controller="lwd.customDashboardController as $vm"> 
+    <umb-table
+        ng-if="$vm.items"
+        items="$vm.items"
+        item-properties="$vm.options.includeProperties">
+    </umb-table>
+</div>
