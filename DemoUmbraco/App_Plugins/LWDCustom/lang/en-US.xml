@@ -3,4 +3,7 @@
   <area alias="dashboardTabs">
     <key alias="lwd.welcomeDashboard">My Custom Welcome</key>
   </area>
+  <area alias="sections">
+    <key alias="customSection">Custom Section</key>
+  </area>
 </language>

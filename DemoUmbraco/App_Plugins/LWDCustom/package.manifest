@@ -8,5 +8,11 @@
       "sections": ["content"],
       "view": "~/App_Plugins/LWDCustom/dashboards/welcome-dashboard.html"
     }
+  ],
+  "sections": [
+    {
+      "alias": "customSection",
+      "name": "Custom Section"
+    }
   ]
 }
