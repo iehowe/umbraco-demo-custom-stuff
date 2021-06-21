@@ -2,7 +2,8 @@
   "javascript": [
     "~/App_Plugins/LWDCustom/dashboards/welcome-dashboard.controller.js",
     "~/App_Plugins/LWDCustom/dashboards/custom-dashboard.controller.js",
-    "~/App_Plugins/LWDCustom/content-apps/orders-content-app.controller.js"
+    "~/App_Plugins/LWDCustom/content-apps/orders-content-app.controller.js",
+    "~/App_Plugins/LWDCustom/infinite-editors/lwd-infinite-editor.controller.js"
   ],
   "dashboards": [
     {

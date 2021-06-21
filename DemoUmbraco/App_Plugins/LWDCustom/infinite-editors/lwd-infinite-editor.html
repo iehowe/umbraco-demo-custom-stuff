@@ -1,0 +1,41 @@
+﻿<div ng-controller="lwd.infiniteEditor as $vm">
+    <umb-editor-view>
+        <umb-editor-header 
+            name="'Infinite Editor Demo'"
+            name-locked="true"
+            description="'sample infinite editor'"
+            description-locked="true"
+            hide-alias="true"
+            alias="lwdInfiniteEditor"
+            hide-icon="true"
+            navigation="$vm.navItems" 
+            editorfor="{ setPageTitle: false }"
+            on-select-navigation-item="$vm.handleNavItemClick(item)">
+        </umb-editor-header>
+        <umb-editor-container ng-if="$vm.activeNav.name === 'Info'">
+            <umb-box>
+                <umb-box-header title="Info"></umb-box-header>
+                <umb-box-content>
+                    <h1>Hello world</h1>
+                </umb-box-content>
+            </umb-box>
+        </umb-editor-container>
+        <umb-editor-footer>
+            <umb-editor-footer-content-right>
+                <umb-button
+                    type="button"
+                    button-style="link"
+                    label-key="general_close"
+                    shortcut="esc"
+                    action="$vm.closeEditorWithoutSaving()">
+                </umb-button>
+                <umb-button
+                    type="submit"
+                    state="$vm.editorState"
+                    button-style="action"
+                    label-key="general_submit">
+                </umb-button>
+            </umb-editor-footer-content-right>
+        </umb-editor-footer>
+    </umb-editor-view>
+</div>

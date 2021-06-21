@@ -270,9 +270,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Plugins\LWDCustom\content-apps\orders-content-app.controller.js" />
+    <Content Include="App_Plugins\LWDCustom\content-apps\orders-content-app.html" />
     <Content Include="App_Plugins\LWDCustom\css\main.css" />
+    <Content Include="App_Plugins\LWDCustom\dashboards\custom-dashboard.controller.js" />
+    <Content Include="App_Plugins\LWDCustom\dashboards\custom-dashboard.html" />
     <Content Include="App_Plugins\LWDCustom\dashboards\welcome-dashboard.controller.js" />
     <Content Include="App_Plugins\LWDCustom\dashboards\welcome-dashboard.html" />
+    <Content Include="App_Plugins\LWDCustom\infinite-editors\lwd-infinite-editor.controller.js" />
+    <Content Include="App_Plugins\LWDCustom\infinite-editors\lwd-infinite-editor.html" />
     <Content Include="App_Plugins\LWDCustom\lang\en-US.xml" />
     <Content Include="config\grid.editors.config.js" />
     <Content Include="config\Lang\cs-CZ.user.xml" />

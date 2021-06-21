@@ -1,11 +1,25 @@
-﻿<div ng-controller="lwd.ordersContentApp as $vm">
-    <umb-box>
-        <umb-box-content>
-            <umb-table
-                ng-if="$vm.items"
-                items="$vm.items"
-                item-properties="$vm.options.includeProperties">
-            </umb-table>
-        </umb-box-content>
-    </umb-box>
+﻿<div class="umb-property-editor" ng-controller="lwd.ordersContentApp as $vm">
+    <umb-editor-sub-header>
+        <umb-editor-sub-header-content-left>
+            <umb-editor-sub-header-section>
+                <umb-button
+                    type="button"
+                    label="Show Infinite Editor"
+                    button-style="white"
+                    action="$vm.showInfiniteEditor()">
+                </umb-button>
+                <umb-button
+                    type="button"
+                    label="Show Dialog"
+                    button-style="white"
+                    action="$vm.showDialog()">
+                </umb-button>
+            </umb-editor-sub-header-section>
+        </umb-editor-sub-header-content-left>
+    </umb-editor-sub-header>
+    <umb-table
+        ng-if="$vm.items"
+        items="$vm.items"
+        item-properties="$vm.options.includeProperties">
+    </umb-table>
 </div>
